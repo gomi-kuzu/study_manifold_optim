@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
+jupyter = "*"
+arviz = "*"
+jupyterlab = "*"
+pyro-ppl = "*"
+japanize-matplotlib = "*"
+seaborn = "*"
+numpy-stl = "*"
+pymanopt = "*"
+autograd = "*"
+jax = {extras = ["cpu"], version = "*"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
